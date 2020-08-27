@@ -1,0 +1,21 @@
+.logo {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+.logo a {
+    color: #fff;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.logo a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 5px;
+    border-radius: 1000px;
+    background-color: #009387;
+}

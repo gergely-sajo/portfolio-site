@@ -1,0 +1,34 @@
+.page-section {
+    padding: 7rem 0;
+}
+
+.page-section__projects {
+    margin-bottom: -15rem;
+}
+
+.page-section__title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 7rem;
+    position: relative;
+}
+
+.page-section__title--dark {
+    color: #0D1E23;
+    
+}
+
+.page-section__title--light {
+    color: #fff;
+}
+
+.page-section__title--dark::after, .page-section__title--light::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4%;
+    height: 5px;
+    border-radius: 1000px;
+    background-color: #009387;
+}

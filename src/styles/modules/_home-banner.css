@@ -1,0 +1,29 @@
+.home-banner__description {
+    padding-right: 140px;
+}
+
+.home-banner__title {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.home-banner__subtitle {
+    color: #959fa2;
+    font-size: 2rem;
+    line-height: 140%;
+    margin: 2rem 0 3rem 0;
+}
+
+.home-banner__photo {
+    width: 424px;
+}
+
+.home-banner__content {
+    display: flex;
+    padding-top: 350px;
+}
+
+.home-banner__photo {
+    min-width: 40%;
+}
