@@ -7,7 +7,6 @@ import { FaHtml5 } from "react-icons/fa";
 
 function PortfolioWebsite() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__img">
               <img className="project__img" src={shoppingList}/>
@@ -38,7 +37,6 @@ function PortfolioWebsite() {
           <button className="btn btn-dark">View Code</button>
         </div>   
       </div>  
-    </div>
   )
 }
   

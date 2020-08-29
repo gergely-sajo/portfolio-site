@@ -9,7 +9,6 @@
 }
 
 .home-banner__subtitle {
-    color: #959fa2;
     font-size: 2rem;
     line-height: 140%;
     margin: 2rem 0 3rem 0;
@@ -21,7 +20,7 @@
 
 .home-banner__content {
     display: flex;
-    padding-top: 350px;
+    padding-top: 15rem;
 }
 
 .home-banner__photo {

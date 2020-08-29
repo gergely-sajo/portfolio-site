@@ -10,16 +10,16 @@ import Slideshow from './projects/Slideshow';
 
 function ProjectsSecion() {
   return (
-    <div id="Project" className="light-background">
-        <div className="wrapper page-section page-section__projects">
+    <div id="my-projects"  className="page-section page-section__projects page-section--light">
+        <div className="wrapper">
         <h2 className="page-section__title page-section__title--dark">My Projects</h2>
-            <PortfolioWebsite />
-            <FacebookLikeApp />
-            <CounterApp />
-            <ShoppingList />
-            <TravelSite />
-            <RandomColorGenerator />
-            <Slideshow />
+          <PortfolioWebsite />
+          <FacebookLikeApp />
+          <CounterApp />
+          <ShoppingList />
+          <TravelSite />
+          <RandomColorGenerator />
+          <Slideshow />            
         </div>
     </div>
   );

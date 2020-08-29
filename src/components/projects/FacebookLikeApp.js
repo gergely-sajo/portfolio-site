@@ -9,7 +9,6 @@ import { AiOutlineStar } from "react-icons/ai";
 
 function FacebookLikeApp() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__content project-preview__content-left">
           <div className="content-box">
@@ -46,7 +45,6 @@ function FacebookLikeApp() {
             <img className="project__img" src={facebookLikeApp}/>
         </div>
       </div>
-  </div>
   )
 }
 

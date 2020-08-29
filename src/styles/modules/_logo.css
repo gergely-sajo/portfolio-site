@@ -1,9 +1,15 @@
 .logo {
     font-size: 2.25rem;
     font-weight: 300;
+    transition: 0.3s;
 }
 
-.logo a {
+.logo-sticky {
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.logo a, .logo-sticky a {
     color: #fff;
     position: relative;
     padding-bottom: 15px;
@@ -18,4 +24,17 @@
     height: 5px;
     border-radius: 1000px;
     background-color: #009387;
+    transition: 0.3s;
+}
+
+.logo-sticky a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    width: 20%;
+    height: 3px;
+    border-radius: 1000px;
+    background-color: #009387;
+    transition: 0.3s;
 }

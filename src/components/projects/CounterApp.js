@@ -5,7 +5,6 @@ import { FaReact } from "react-icons/fa";
 
 function CounterApp() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__img">
               <img className="project__img" src={counterApp}/>
@@ -30,7 +29,6 @@ function CounterApp() {
           <button className="btn btn-dark">View Code</button>
         </div>   
       </div>  
-    </div>
   )
 }
   

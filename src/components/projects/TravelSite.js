@@ -8,7 +8,6 @@ import { SiNodeDotJs } from "react-icons/si";
 
 function TravelSite() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__img">
               <img className="project__img" src={travelSite}/>
@@ -42,7 +41,6 @@ function TravelSite() {
           <button className="btn btn-dark">View Code</button>
         </div>   
       </div>  
-    </div>
   )
 }
   

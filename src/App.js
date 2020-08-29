@@ -3,19 +3,29 @@ import React from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import ProjectsSection from './components/ProjectsSection';
+import Skills from './components/Skills';
 import About from './components/About';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+import useSticky from './hooks/useSticky';
 
 import './styles/App.css';
 
 function App() {
+  const { isSticky, element } = useSticky()
+
   return (
     <div>
-      <Nav />
-      <Home />
+      <Nav sticky={isSticky} />
+      <Home element={element}/>
       <ProjectsSection />
+      <Skills />
       <About />
+      <Resume />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,29 +1,47 @@
 .nav {
-    position: absolute;
+    position: fixed;
     width: 100vw;
+    background-color: #0D1E23;
+    z-index: 1;
+    padding: 80px 0;
+    transition: 0.3s;
+}
+
+.nav-sticky {
+    position: fixed;
+    width: 100vw;
+    background-color: #0D1E23;
+    z-index: 1;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-inner {
     display: flex;
     align-items: center;
-    padding: 80px 0 80px 0;
 }
 
 .nav-bar {
     margin-left: auto;
 }
 
-.nav-elements {
+.nav-elements, .nav-elements-sticky {
     display: flex;
+    transition: 0.3s;
 }
 
 .nav-elements li {
     font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.nav-elements-sticky li {
+    font-size: 1rem;
+    transition: 0.3s;
 }
 
 .nav-elements a {
     position: relative;
-    color: #959fa2;
 }
 
 .nav-elements a:hover {
@@ -36,7 +54,7 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -10%;
+    bottom: -30%;
     width: 100%;
     height: 2px;
     background-color: #009387;
@@ -51,5 +69,5 @@
 }
 
 li:not(:last-child) {
-    margin-right: 80px;
+    margin-right: 60px;
 }

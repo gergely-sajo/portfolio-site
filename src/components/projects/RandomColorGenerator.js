@@ -6,7 +6,6 @@ import { FaHtml5 } from "react-icons/fa";
 
 function RandomColorGenerator() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__content project-preview__content-left">
           <div className="content-box">
@@ -34,7 +33,6 @@ function RandomColorGenerator() {
             <img className="project__img" src={randomColorGenerator}/>
         </div>
       </div>
-  </div>
   )
 }
 

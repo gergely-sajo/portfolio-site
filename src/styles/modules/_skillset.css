@@ -1,0 +1,23 @@
+.skills-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-container div:not(:last-child) {
+    padding-right: 2rem;
+}
+
+.skillset__title {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.skillset {
+    font-size: 1.3rem;
+    min-width: 100px;
+}

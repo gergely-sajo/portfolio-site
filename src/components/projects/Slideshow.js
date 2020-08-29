@@ -7,7 +7,6 @@ import { SiJquery } from "react-icons/si";
 
 function Slideshow() {
   return (
-    <div>
       <div className="project-preview">
         <div className="project-preview__img">
               <img className="project__img" src={slideshow}/>
@@ -38,7 +37,6 @@ function Slideshow() {
           <button className="btn btn-dark">View Code</button>
         </div>   
       </div>  
-    </div>
   )
 }
   

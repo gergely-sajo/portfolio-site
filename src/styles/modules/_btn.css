@@ -11,6 +11,10 @@
     transition: all ease-in .2s;
 }
 
+.btn a {
+    color: #fff;
+}
+
 .btn-dark:hover {
     color: #0D1E23;
 }
