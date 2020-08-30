@@ -1,0 +1,31 @@
+.contact__social-icon {
+    width: 45px;
+}
+
+.contact__email {
+    font-size: 1.3rem;
+}
+
+.contact-email-form {
+    width: 500px;
+    margin: 0 auto 5rem auto;
+}
+
+.contact-email-form__your-email {
+    margin-bottom: 1rem;
+}
+
+.contact-email-form__your-email input, textarea {
+    width: 500px;
+    margin-top: 0.5rem;
+    padding: .75rem .75rem;
+    height: 2rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: #0D1E23;
+    font-family: 'Rubik', sans-serif;
+}
+.contact-email-form__textarea {
+    height: 10rem;
+    margin-bottom: 1rem;
+}

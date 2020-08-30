@@ -14,24 +14,25 @@ import { FaGithub } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import { SiHeroku } from "react-icons/si";
+import { FiCode } from "react-icons/fi";
 
 function Skills() {
   return (
     <div id="skills" className="page-section page-section--dark">
       <div className="wrapper">
         <h2 className="page-section__title page-section__title--light">Skills</h2>
-        <div className="skills-container">
-          <div className="skillset">
-            <p className="skillset__title">Languages</p>
-            <ul className="skillset">
+        <div className="page-section__flex page-section__flex--srp page-section__narrow-centered">
+          <div>
+            <p className="page-section__text-title">Languages</p>
+            <ul className="page-section__text-desc">
               <li><FaHtml5 /> HTML5</li>
               <li><DiCss3 /> CSS3</li>
               <li><FaJsSquare /> JavaScript</li>
             </ul>
           </div>
-          <div className="skillset">
-            <p className="skillset__title">Frameworks & Libraries</p>
-            <ul className="skillset">
+          <div>
+            <p className="page-section__text-title">Frameworks & Libraries</p>
+            <ul className="page-section__text-desc">
               <li><FaReact /> React</li>
               <li><SiNodeDotJs /> Node.js</li>
               <li><AiOutlineStar /> Express.js</li>
@@ -40,19 +41,20 @@ function Skills() {
               <li><AiOutlineStar /> Lodash</li>
             </ul>
           </div>
-          <div className="skillset">
-            <p className="skillset__title">Tools</p>
-            <ul className="skillset">
+          <div>
+            <p className="page-section__text-title">Tools</p>
+            <ul className="page-section__text-desc">
               <li><FaNpm /> NPM</li>
               <li><SiWebpack /> Webpack</li>
             </ul>
           </div>
-          <div className="skillset">
-            <p className="skillset__title">Additional Stuff</p>
-            <ul className="skillset">
+          <div>
+            <p className="page-section__text-title">Additional Stuff</p>
+            <ul className="page-section__text-desc">
               <li><FaGithub /> Git & Github</li>
               <li><SiMongodb /> Mongodb</li>
               <li><FaWordpress /> Wordpress</li>
+              <li><FiCode /> ejs</li>
               <li><SiNetlify /> Netlify</li>
               <li><SiHeroku /> Heroku</li>
             </ul>

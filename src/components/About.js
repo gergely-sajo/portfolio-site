@@ -1,11 +1,13 @@
 import React from 'react';
+import CV from '../images/resume.pdf'
 
 function About() {
   return (
     <div id="about-me" className="page-section page-section--light">
     <div className="wrapper">
       <h2 className="page-section__title page-section__title--dark">About Me</h2>
-        <p className="about-me">
+      <div className="page-section__narrow-centered">
+        <p className="page-section__text-desc">
           My full name is Gergely Sajo, but just call me Gary. I am a self-taught developer located in Vienna, Austria. Currently, I am pursuing the opportunity to begin my career in web development.
           <br/>
           <br/>
@@ -14,6 +16,8 @@ function About() {
           <br/>
           One course led to another and then another and so on...
         </p>
+        <a href={CV} target="_blank"><button className="btn btn-dark">Download my CV</button></a>
+      </div>
     </div>
   </div>
   )

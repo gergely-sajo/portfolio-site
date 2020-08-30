@@ -1,4 +1,5 @@
 import React from 'react';
+import CV from '../images/resume.pdf'
 
 const Nav = ({ sticky }) => {
 
@@ -13,7 +14,7 @@ const Nav = ({ sticky }) => {
             <li><a href="#my-projects" id="my-projects-link">My Projects</a></li>
             <li><a href="#skills" id="skills-link">Skills</a></li>
             <li><a href="#about-me" id="about-me-link">About Me</a></li>
-            <li><a href="#resume" id="resume-link">Resume</a></li>
+            <li><a href={CV} target="_blank">Download CV</a></li>
             <li><a href="#contact" id="contact-link">Contact</a></li>
           </ul>
         </div>

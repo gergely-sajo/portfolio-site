@@ -13,7 +13,7 @@ function TravelSite() {
               <img className="project__img" src={travelSite}/>
         </div>
         <div className="project-preview__content project-preview__content-right">
-          <div className="content-box">
+          <div className="project__content-box">
             <h3 className="project__title">Travel site</h3>
             <p className="project__desc">The travel site is meant to showcase the BEM philosophy and mobile-first design.</p>
           </div>
@@ -37,8 +37,8 @@ function TravelSite() {
                 </li>
             </ul>
           </div>
-          <button className="btn btn-dark sm-r-m">View Site</button>
-          <button className="btn btn-dark">View Code</button>
+          <a href="https://gergely-sajo-travel-site.netlify.app/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://github.com/gergely-sajo/travel-site" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>   
       </div>  
   )

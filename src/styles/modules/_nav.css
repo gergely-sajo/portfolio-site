@@ -61,7 +61,7 @@
 
     transform: scaleX(0);
     transform-origin: left;
-    transition: transform 300ms ease-in;
+    transition: transform 200ms ease-in;
 }
 
 .nav-elements a:hover::after {

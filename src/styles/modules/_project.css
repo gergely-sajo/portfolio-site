@@ -16,6 +16,10 @@
     width: 40%;
 }
 
+.project__content-box {
+    margin-bottom: 2rem;
+}
+
 .project-preview__content-left {
     margin-right: 10rem;
 }
@@ -32,15 +36,10 @@
 
 .project__desc {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
 }
 
 .project__tech-list {
     margin-bottom: 2rem;
-}
-
-.project__tech-list-items {
-    margin-bottom: 1.5rem;
 }
 
 .project__tech-list-items li, .authentic-info li{

@@ -12,7 +12,7 @@ function ShoppingList() {
   return (
       <div className="project-preview">
         <div className="project-preview__content project-preview__content-left">
-          <div className="content-box">
+          <div className="project__content-box">
             <h3 className="project__title">Shopping list</h3>
             <h4 className="authentic-info--title">The app is password protected.</h4>
             <ul className="authentic-info">
@@ -45,8 +45,8 @@ function ShoppingList() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-dark sm-r-m">View Site</button>
-          <button className="btn btn-dark">View Code</button>
+          <a href="https://gergely-sajo-shopping-list.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://github.com/gergely-sajo/shopping-list" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>
         <div className="project-preview__img">
             <img className="project__img" src={shoppingList}/>

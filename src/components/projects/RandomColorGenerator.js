@@ -8,7 +8,7 @@ function RandomColorGenerator() {
   return (
       <div className="project-preview">
         <div className="project-preview__content project-preview__content-left">
-          <div className="content-box">
+          <div className="project__content-box">
             <h3 className="project__title">Random Color Generator</h3>
             <p className="project__desc">By clicking on the "CLICK ME!" button we can generate a random color for the background, and we also get the hex color code for the color generated.</p>
           </div>
@@ -26,8 +26,8 @@ function RandomColorGenerator() {
                 </li>
             </ul>
           </div>
-          <button className="btn btn-dark sm-r-m">View Site</button>
-          <button className="btn btn-dark">View Code</button>
+          <a href="https://gergely-sajo-random-color-generator.netlify.app/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://github.com/gergely-sajo/random-color-generator" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>
         <div className="project-preview__img">
             <img className="project__img" src={randomColorGenerator}/>

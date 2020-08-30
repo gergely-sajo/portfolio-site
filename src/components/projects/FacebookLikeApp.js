@@ -11,7 +11,7 @@ function FacebookLikeApp() {
   return (
       <div className="project-preview">
         <div className="project-preview__content project-preview__content-left">
-          <div className="content-box">
+          <div className="project__content-box">
             <h3 className="project__title">Facebook-like App</h3>
             <p className="project__desc">New users must register first, or if they have a user account, they can login. Within the app it is possible to post, edit and delete content. Users can follow each other, as well.</p>
           </div>
@@ -38,8 +38,8 @@ function FacebookLikeApp() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-dark sm-r-m">View Site</button>
-          <button className="btn btn-dark">View Code</button>
+          <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://github.com/gergely-sajo/facebook-like-app" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>
         <div className="project-preview__img">
             <img className="project__img" src={facebookLikeApp}/>

@@ -12,7 +12,7 @@ function PortfolioWebsite() {
               <img className="project__img" src={shoppingList}/>
         </div>
         <div className="project-preview__content project-preview__content-right">
-          <div className="content-box">
+          <div className="project__content-box">
             <h3 className="project__title">Portfolio Website</h3>
             <p className="project__desc">Created to showcase my work (both the finished project and their repective code) and skills, plus for visitors to get to know me a little bit better than only through my resume.</p>
           </div>
@@ -33,8 +33,7 @@ function PortfolioWebsite() {
               </li>
             </ul>
           </div>
-          <button className="btn btn-dark sm-r-m">View Site</button>
-          <button className="btn btn-dark">View Code</button>
+          <a href="https://github.com/gergely-sajo/portfolio-site" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>   
       </div>  
   )

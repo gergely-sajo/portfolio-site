@@ -1,5 +1,5 @@
 .page-section {
-    padding: 7rem 0;
+    padding: 4rem 0;
     color: #959fa2;
 }
 
@@ -14,7 +14,7 @@
 .page-section__title {
     font-size: 2.25rem;
     font-weight: 300;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
     position: relative;
 }
 
@@ -35,4 +35,31 @@
     height: 5px;
     border-radius: 1000px;
     background-color: #009387;
+}
+
+.page-section__text-title {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.page-section__text-desc {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.page-section__narrow-centered{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section__flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-section__flex--srp div:not(:last-child) {
+    padding-right: 2rem;
 }
