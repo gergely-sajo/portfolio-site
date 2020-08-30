@@ -1,28 +1,139 @@
-.home-banner__description {
-    padding-right: 140px;
+/* Styles without media */
+
+.home-banner__photo img {
+    width: 350px;
+    margin-top: -2rem;
 }
 
 .home-banner__title {
     color: #fff;
-    font-size: 4.5rem;
-    font-weight: 400;
+    font-size: 3.5rem;
 }
 
 .home-banner__subtitle {
-    font-size: 2rem;
     line-height: 140%;
+    font-size: 1.6rem;
     margin: 2rem 0 3rem 0;
 }
 
-.home-banner__photo {
-    width: 424px;
+.home-banner__description {
+    padding-right: 100px;
 }
 
 .home-banner__content {
     display: flex;
-    padding-top: 15rem;
+    padding-top: calc(100vh / 4);
 }
 
-.home-banner__photo {
-    min-width: 40%;
+/* Min-width: 750px Styles */
+
+@media screen and (min-width: 750px) {
+    .home-banner__photo img {
+        width: calc(100vw / 3);
+    }
+
+    .home-banner__description {
+        padding-right: 40px;
+    }
+    
+    .home-banner__title {
+        font-size: 2.5rem;
+    }
+    
+    .home-banner__subtitle {
+        font-size: 1.2rem;
+        margin: 1rem 0 2rem 0;
+    }
+    
+    .home-banner__content {
+        padding-top: 12rem;
+        padding-bottom: 4rem;
+    }
+}
+
+/* Min-width: 1025px Styles */
+
+@media screen and (min-width: 1025px) {
+    .home-banner__photo img {
+        width: 300px;
+    }
+
+    .home-banner__description {
+        padding-right: 100px;
+    }
+    
+    .home-banner__title {
+        font-size: 3rem;
+    }
+    
+    .home-banner__subtitle {
+        font-size: 1.4rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .home-banner__content {
+        padding-top: calc(100vh / 4);
+    }
+
+    .home-banner-max-vh {
+        height: 100vh;
+    }
+}
+
+/* Min-width: 1200px Styles */
+
+@media screen and (min-width: 1200px) {
+    .home-banner__photo img {
+        width: 350px;
+    }
+
+    .home-banner__description {
+        padding-right: 100px;
+    }
+    
+    .home-banner__title {
+        font-size: 3.5rem;
+    }
+    
+    .home-banner__subtitle {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .home-banner__content {
+        padding-top: calc(100vh / 4);
+    }
+
+    .home-banner-max-vh {
+        height: 100vh;
+    }
+}
+
+/* Min-width: 1440px Styles */
+
+@media screen and (min-width: 1440px) {
+    .home-banner__photo img {
+        width: 400px;
+    }
+
+    .home-banner__description {
+        padding-right: 140px;
+    }
+    
+    .home-banner__title {
+        font-size: 4rem;
+    }
+    
+    .home-banner__subtitle {
+        font-size: 1.8rem;
+        margin: 2rem 0 3rem 0;
+    }
+    
+    .home-banner__content {
+        padding-top: calc(100vh / 3.3);
+    }
+
+    .home-banner-max-vh {
+        height: 100vh;
+    }
 }

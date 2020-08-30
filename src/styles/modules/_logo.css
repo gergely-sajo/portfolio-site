@@ -1,12 +1,15 @@
+/* Styles without media */
+
 .logo {
-    font-size: 2.25rem;
-    font-weight: 300;
     transition: 0.3s;
+    font-size: 2rem;
+    position: relative;
 }
 
 .logo-sticky {
     font-size: 1.3rem;
     transition: 0.3s;
+    position: relative;
 }
 
 .logo a, .logo-sticky a {
@@ -37,4 +40,28 @@
     border-radius: 1000px;
     background-color: #009387;
     transition: 0.3s;
+}
+
+/* Min-width: 930px Styles */
+
+@media screen and (min-width: 850px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+}
+
+/* Min-width: 1200px Styles */
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 2rem;
+    }
+}
+
+/* Min-width: 1440px Styles */
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        font-size: 2.25rem;
+    }
 }

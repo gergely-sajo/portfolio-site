@@ -31,7 +31,7 @@ function Skills() {
             </ul>
           </div>
           <div>
-            <p className="page-section__text-title">Frameworks & Libraries</p>
+            <p className="page-section__text-title">Frameworks & Libs</p>
             <ul className="page-section__text-desc">
               <li><FaReact /> React</li>
               <li><SiNodeDotJs /> Node.js</li>
