@@ -19,7 +19,7 @@ function Contact() {
           </div>
         </form>
 
-        <p className="contact__email page-section__text-centered generic-centered s-b-m">Or if you prefer here is my email address: <a href="mailto:gary.sajo@gmail.com">gary.sajo@gmail.com</a></p>
+        <p className="page-section__text-desc page-section__text-centered generic-centered s-b-m">Or if you prefer here is my email address: <a href="mailto:gary.sajo@gmail.com">gary.sajo@gmail.com</a></p>
         <div className="page-section__narrow-centered generic-centered">
           <a href="mailto:gary.sajo@gmail.com"><img className="contact__social-icon" src="https://img.icons8.com/color/48/000000/secured-letter.png"/></a>
           <a href="https://www.linkedin.com/in/gergely-saj%C3%B3-a0267486/" target="_blank"><img className="contact__social-icon" src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>

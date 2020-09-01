@@ -1,6 +1,12 @@
 .page-section {
-    padding: 4rem 0;
+    padding: 2rem 0;
     color: #959fa2;
+}
+
+.page-section::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .page-section--dark {
@@ -12,10 +18,11 @@
 }
 
 .page-section__title {
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     font-weight: 300;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     position: relative;
+    width: 200px;
 }
 
 .page-section__title--dark {
@@ -31,7 +38,7 @@
     position: absolute;
     left: 0;
     bottom: -20%;
-    width: 4%;
+    width: 20%;
     height: 5px;
     border-radius: 1000px;
     background-color: #009387;
@@ -44,8 +51,7 @@
 }
 
 .page-section__text-desc {
-    font-size: 1.3rem;
-    padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 .page-section__narrow-centered{
@@ -54,12 +60,50 @@
     margin-right: auto;
 }
 
-.page-section__flex {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.page-section__mobile-text-centered {
+    text-align: center;
 }
 
-.page-section__flex--srp div:not(:last-child) {
-    padding-right: 2rem;
+/* Min-width: 750px Styles */
+
+@media screen and (min-width: 750px) {
+    .page-section {
+        padding: 4rem 0;
+    }
+
+    .page-section__mobile-text-centered {
+        text-align: unset;
+    }
+
+    .page-section__flex {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Min-width: 1025px Styles */
+
+@media screen and (min-width: 1025px) {
+    .page-section__title {
+        font-size: 2.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .page-section__text-desc {
+        font-size: 1.2rem;
+    }
+}
+
+/* Min-width: 1200px Styles */
+
+@media screen and (min-width: 1200px) {
+    .page-section__text-desc {
+        font-size: 1.3rem;
+    }
+}
+
+/* Min-width: 1440px Styles */
+
+@media screen and (min-width: 1440px) {
+
 }

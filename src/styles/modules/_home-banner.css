@@ -1,35 +1,58 @@
 /* Styles without media */
 
+.home-banner__photo {
+    display: none;
+}
+
 .home-banner__photo img {
-    width: 350px;
-    margin-top: -2rem;
+    width: 33vw;
 }
 
 .home-banner__title {
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 12.5vw;
 }
 
 .home-banner__subtitle {
     line-height: 140%;
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem 0;
+    font-size: 4vw;
+    margin: 1rem 0 2rem 0;
 }
 
 .home-banner__description {
-    padding-right: 100px;
+    padding-top: 10vh;
+    text-align: center;
 }
 
 .home-banner__content {
     display: flex;
-    padding-top: calc(100vh / 4);
+    padding-top: 6rem;
 }
 
-/* Min-width: 750px Styles */
+.home-banner-max-vh {
+    height: 100vh;
+}
 
-@media screen and (min-width: 750px) {
+/* Min-width: 500px Styles */
+
+@media screen and (min-width: 500px) {
+
+    .home-banner-max-vh {
+        height: auto;
+    }
+
+    .home-banner__photo {
+        display: block;
+    }
+
+    .home-banner__description {
+        padding-top: 2vw;
+        text-align: left;
+    }
+
     .home-banner__photo img {
-        width: calc(100vw / 3);
+        width: 33vw;
+        margin-top: -1rem;
     }
 
     .home-banner__description {
@@ -41,12 +64,12 @@
     }
     
     .home-banner__subtitle {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin: 1rem 0 2rem 0;
     }
     
     .home-banner__content {
-        padding-top: 12rem;
+        padding-top: 10rem;
         padding-bottom: 4rem;
     }
 }
@@ -67,12 +90,11 @@
     }
     
     .home-banner__subtitle {
-        font-size: 1.4rem;
         margin: 2rem 0 3rem 0;
     }
     
     .home-banner__content {
-        padding-top: calc(100vh / 4);
+        padding-top: 25vh;
     }
 
     .home-banner-max-vh {
@@ -101,7 +123,7 @@
     }
     
     .home-banner__content {
-        padding-top: calc(100vh / 4);
+        padding-top: 25vh;
     }
 
     .home-banner-max-vh {
@@ -130,7 +152,7 @@
     }
     
     .home-banner__content {
-        padding-top: calc(100vh / 3.3);
+        padding-top: 30vh;
     }
 
     .home-banner-max-vh {

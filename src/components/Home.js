@@ -3,7 +3,7 @@ import me from '../images/me.jpeg';
 
 const Home = ({ element }) => {
   return (
-    <div id="Home" className="page-section page-section--dark">
+    <div id="home" className="page-section page-section--dark">
         <div className="wrapper home-banner__content home-banner-max-vh">
             <div id="Home-Banner-Content" className="home-banner__description">
                 <h1 ref={element} className="home-banner__title">Hey, I'm Gary.</h1>

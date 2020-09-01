@@ -13,6 +13,10 @@
     transition: all ease-in .2s;
 }
 
+.btn--right {
+    float: right;
+}
+
 .btn a {
     color: #fff;
 }
@@ -22,8 +26,8 @@
 }
 
 .btn--large {
-    font-size: 1.5rem;
-    padding: 26px;
+    font-size: 4.5vw;
+    padding: 5vw;
     transition: all ease-in .3s;
 }
 
@@ -39,15 +43,6 @@
 /* Min-width: 500px Styles */
 
 @media screen and (min-width: 500px) {
-    .btn--large {
-        font-size: 1rem;
-        padding: 15px;
-    }
-}
-
-/* Min-width: 930px Styles */
-
-@media screen and (min-width: 850px) {
     .btn--large {
         font-size: 1.2rem;
         padding: 20px;

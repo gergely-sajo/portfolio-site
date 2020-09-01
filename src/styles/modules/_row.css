@@ -1,0 +1,13 @@
+.row__6 {
+    float: left;
+    width: 50%;
+}
+
+/* Max-width: 750px Styles */
+
+@media screen and (min-width: 750px) {
+    .row__6 {
+        float: none;
+        width: unset;
+    }
+}

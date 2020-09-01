@@ -3,6 +3,15 @@
 }
 
 .footer--text {
+    font-size: 0.8rem;
     text-align: center;
     color: #959fa2;
+}
+
+/* Min-width: 1025px Styles */
+
+@media screen and (min-width: 1025px) {
+    .footer--text {
+        font-size: 1rem;
+    }
 }

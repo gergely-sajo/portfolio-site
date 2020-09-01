@@ -4,10 +4,13 @@ import CV from '../images/resume.pdf'
 const Nav = ({ sticky }) => {
 
   return (
-    <div id="Nav" className={sticky ? "nav-sticky" : "nav"}>
+    <div id="nav" className={sticky ? "nav-sticky" : "nav"}>
       <div className="wrapper nav-inner">
           <div className={sticky ? "logo-sticky" : "logo"}>
             <a href="#">Gergely Sajo</a>
+        </div>
+        <div className="nav__toggle-menu">
+          <span className={sticky ? "nav__toggle-menu--line-sticky" : "nav__toggle-menu--line"}></span>
         </div>
         <div className="nav-bar">
           <ul className={sticky ? "nav-elements-sticky" : "nav-elements"}>

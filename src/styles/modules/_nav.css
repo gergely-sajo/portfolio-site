@@ -5,7 +5,7 @@
     width: 100vw;
     background-color: #0D1E23;
     z-index: 1;
-    padding: 80px 0 50px 0;
+    padding: 23px 0 20px 0;
     transition: 0.3s;
 }
 
@@ -25,6 +25,7 @@
 
 .nav-bar {
     margin-left: auto;
+    display: none;
 }
 
 .nav-elements, .nav-elements-sticky {
@@ -34,7 +35,7 @@
 
 .nav-elements li {
     transition: 0.3s;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .nav-elements-sticky li {
@@ -70,19 +71,86 @@
     transform: scaleX(1);
 }
 
-li:not(:last-child) {
-    margin-right: 60px;
+.nav__toggle-menu--line::before, .nav__toggle-menu--line-sticky::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    background-color: #FFF;
+    transform-origin: 0 100%;
+    transition: transform .3s ease-out;
+}
+
+.nav__toggle-menu--line, .nav__toggle-menu--line-sticky {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 20px;
+    height: 3px;
+    background-color: #FFF;
+    transition: 0.3s;
+}
+
+.nav__toggle-menu--line::after, .nav__toggle-menu--line-sticky::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 20px;
+    height: 3px;
+    background-color: #FFF;
+    transform-origin: 0 100%;
+    transition: transform .3s ease-out;
+}
+
+.nav__toggle-menu {
+    
+}
+
+.nav__toggle-menu--line-sticky {
+    top: 25px;
+    right: 25px;
+}
+
+/* Min-width: 750px Styles */
+
+@media screen and (min-width: 750px) {
+    .nav-bar {
+        display: block;
+    }
+
+    li:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .nav__toggle-menu--line, .nav__toggle-menu--line-sticky {
+        opacity: 0;
+    }
+
+    .nav {
+        padding: 50px 0 20px 0;
+    }
 }
 
 /* Min-width: 930px Styles */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     .nav {
         padding-top: 50px;
     }
 
     .nav-elements li {
         font-size: 1.2rem;
+    }
+
+    .nav-elements-sticky li {
+        font-size: 1.1rem;
+    }
+
+    li:not(:last-child) {
+        margin-right: 60px;
     }
 }
 

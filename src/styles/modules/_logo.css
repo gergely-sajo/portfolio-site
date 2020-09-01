@@ -2,12 +2,12 @@
 
 .logo {
     transition: 0.3s;
-    font-size: 2rem;
+    font-size: 6.25vw;
     position: relative;
 }
 
 .logo-sticky {
-    font-size: 1.3rem;
+    font-size: 4.5vw;
     transition: 0.3s;
     position: relative;
 }
@@ -18,7 +18,7 @@
     padding-bottom: 15px;
 }
 
-.logo a::after {
+.logo a::after, .logo-sticky a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -31,22 +31,19 @@
 }
 
 .logo-sticky a::after {
-    content: "";
-    position: absolute;
-    left: 0;
     bottom: 20%;
-    width: 20%;
     height: 3px;
-    border-radius: 1000px;
-    background-color: #009387;
-    transition: 0.3s;
 }
 
-/* Min-width: 930px Styles */
+/* Min-width: 450px Styles */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 450px) {
     .logo {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .logo-sticky {
+        font-size: 1.3rem;
     }
 }
 

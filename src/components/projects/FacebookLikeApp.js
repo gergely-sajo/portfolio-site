@@ -9,11 +9,12 @@ import { AiOutlineStar } from "react-icons/ai";
 
 function FacebookLikeApp() {
   return (
-      <div className="project-preview">
-        <div className="project-preview__content project-preview__content-left">
-          <div className="project__content-box">
-            <h3 className="project__title">Facebook-like App</h3>
-            <p className="project__desc">New users must register first, or if they have a user account, they can login. Within the app it is possible to post, edit and delete content. Users can follow each other, as well.</p>
+    <div className="project-preview">
+      <div className="project-preview__content--left">
+          <h3 className="project__title">Facebook-like App</h3>
+          <p className="page-section__text-desc project__desc">New users must register first, or if they have a user account, they can login. Within the app it is possible to post, edit and delete content. Users can follow each other, as well.</p>
+          <div className="project-preview__img--right project-preview__img--mobile">
+            <img className="project__img" src={facebookLikeApp}/>
           </div>
           <div className="project__tech-list">
             <h4 className="project__tech-list-title">Stack Used:</h4>
@@ -37,14 +38,14 @@ function FacebookLikeApp() {
                 <AiOutlineStar /> Express.js
               </li>
             </ul>
+            <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+            <a href="https://github.com/gergely-sajo/facebook-like-app" target="_blank"><button className="btn btn-dark">View Code</button></a>
           </div>
-          <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
-          <a href="https://github.com/gergely-sajo/facebook-like-app" target="_blank"><button className="btn btn-dark">View Code</button></a>
-        </div>
-        <div className="project-preview__img">
-            <img className="project__img" src={facebookLikeApp}/>
-        </div>
       </div>
+      <div className="project-preview__img--right project-preview__img--desktop">
+        <img className="project__img" src={facebookLikeApp}/>
+      </div>
+    </div>
   )
 }
 
