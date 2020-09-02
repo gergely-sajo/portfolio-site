@@ -12,14 +12,14 @@ function Slideshow() {
         <img className="project__img" src={slideshow}/>
       </div>
       <div className="project-preview__content--right">
-          <h3 className="project__title">Slideshow</h3>
-          <p className="page-section__text-desc project__desc">My first small project was a simple slideshow where you can go forwards, backwards and you can start and stop the slideshow. Once the images are done, it automatically start over from the beginning.</p>
+          <h3 className="page-section__subtitle">Slideshow</h3>
+          <p className="page-section__text-desc">My first small project was a simple slideshow where you can go forwards, backwards and you can start and stop the slideshow. Once the images are done, it automatically start over from the beginning.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
             <img className="project__img" src={slideshow}/>
           </div>
           <div className="project__tech-list">
-          <h4 className="project__tech-list-title">Stack Used:</h4>
-          <ul className="project__tech-list-items">
+          <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
+          <ul className="page-section__text-desc">
             <li>
               <FaHtml5 /> HTML
             </li>

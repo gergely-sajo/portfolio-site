@@ -23,7 +23,7 @@ function Skills() {
         <h2 className="page-section__title page-section__title--light">Skills</h2>
         <div className="page-section__flex">
           <div className="row__6">
-            <p className="page-section__text-title">Languages</p>
+            <p className="page-section__text-title page-section__text-title--white">Languages</p>
             <ul className="page-section__text-desc">
               <li><FaHtml5 /> HTML5</li>
               <li><DiCss3 /> CSS3</li>
@@ -31,25 +31,25 @@ function Skills() {
             </ul>
           </div>
           <div className="row__6">
-            <p className="page-section__text-title">Frameworks & Libs</p>
-            <ul className="page-section__text-desc">
-              <li><FaReact /> React</li>
-              <li><SiNodeDotJs /> Node.js</li>
-              <li><AiOutlineStar /> Express.js</li>
-              <li><SiJquery /> jQuery</li>
-              <li><FaBootstrap /> Bootstrap</li>
-              <li><AiOutlineStar /> Lodash</li>
-            </ul>
+              <p className="page-section__text-title page-section__text-title--white">Frameworks & Libs</p>
+              <ul className="page-section__text-desc">
+                <li><FaReact /> React</li>
+                <li><SiNodeDotJs /> Node.js</li>
+                <li><AiOutlineStar /> Express.js</li>
+                <li><SiJquery /> jQuery</li>
+                <li><FaBootstrap /> Bootstrap</li>
+                <li><AiOutlineStar /> Lodash</li>
+              </ul>
           </div>
           <div className="row__6">
-            <p className="page-section__text-title">Tools</p>
+            <p className="page-section__text-title page-section__text-title--white">Tools</p>
             <ul className="page-section__text-desc">
               <li><FaNpm /> NPM</li>
               <li><SiWebpack /> Webpack</li>
             </ul>
           </div>
           <div className="row__6">
-            <p className="page-section__text-title">Additional Stuff</p>
+            <p className="page-section__text-title page-section__text-title--white">Additional Stuff</p>
             <ul className="page-section__text-desc">
               <li><FaGithub /> Git & Github</li>
               <li><SiMongodb /> Mongodb</li>

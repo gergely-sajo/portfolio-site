@@ -12,14 +12,14 @@ function PortfolioWebsite() {
         <img className="project__img" src={portfolio}/>
       </div>
       <div className="project-preview__content--right">
-          <h3 className="project__title">Portfolio Website</h3>
-          <p className="page-section__text-desc project__desc">Created to showcase my work (both the finished project and their repective code) and skills, plus for visitors to get to know me a little bit better than only through my resume.</p>
+          <h3 className="page-section__subtitle">Portfolio Website</h3>
+          <p className="page-section__text-desc">Created to showcase my work (both the finished project and their repective code) and skills, plus for visitors to get to know me a little bit better than only through my resume.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
             <img className="project__img" src={portfolio}/>
           </div>
           <div className="project__tech-list">
-            <h4 className="project__tech-list-title">Stack Used:</h4>
-            <ul className="project__tech-list-items">
+            <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
+            <ul className="page-section__text-desc">
               <li>
                 <FaJsSquare /> JavaScript
               </li>

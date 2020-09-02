@@ -13,14 +13,14 @@ function TravelSite() {
         <img className="project__img" src={travelSite}/>
       </div>
       <div className="project-preview__content--right">
-          <h3 className="project__title">Travel site</h3>
-          <p className="page-section__text-desc project__desc">The travel site is meant to showcase the BEM philosophy and mobile-first design.</p>
+          <h3 className="page-section__subtitle">Travel site</h3>
+          <p className="page-section__text-desc">The travel site is meant to showcase the BEM philosophy and mobile-first design.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
             <img className="project__img" src={travelSite}/>
           </div> 
           <div className="project__tech-list">
-          <h4 className="project__tech-list-title">Stack Used:</h4>
-          <ul className="project__tech-list-items">
+          <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
+          <ul className="page-section__text-desc">
             <li>
               <FaHtml5 /> HTML
             </li>

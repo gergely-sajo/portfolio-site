@@ -10,14 +10,14 @@ function CounterApp() {
         <img className="project__img" src={counterApp}/>
       </div>
       <div className="project-preview__content--right">
-          <h3 className="project__title">Counter App</h3>
-          <p className="page-section__text-desc project__desc">A simple counter app, where users can add and remove counters, and count on the counters by incrementing their values. A total counter is on the top which counts the counters which are not zero. Many "counters" in this description.</p>
+          <h3 className="page-section__subtitle">Counter App</h3>
+          <p className="page-section__text-desc">A simple counter app, where users can add and remove counters, and count on the counters by incrementing their values. A total counter is on the top which counts the counters which are not zero. Many "counters" in this description.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
             <img className="project__img" src={counterApp}/>
           </div>  
           <div className="project__tech-list">
-          <h4 className="project__tech-list-title">Stack Used:</h4>
-          <ul className="project__tech-list-items">
+          <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
+          <ul className="page-section__text-desc">
             <li>
               <FaJsSquare /> JavaScript
             </li>

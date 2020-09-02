@@ -1,6 +1,7 @@
 .row__6 {
     float: left;
     width: 50%;
+    padding-bottom: 1rem;
 }
 
 /* Max-width: 750px Styles */
@@ -9,5 +10,9 @@
     .row__6 {
         float: none;
         width: unset;
+    }
+
+    .row__6:not(:last-child) {
+        padding-right: 1rem;
     }
 }

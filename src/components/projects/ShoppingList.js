@@ -12,9 +12,9 @@ function ShoppingList() {
   return (
     <div className="project-preview">
       <div className="project-preview__content--left">
-          <h3 className="project__title">Shopping list</h3>
-          <h4 className="authentic-info--title">The app is password protected.</h4>
-          <ul className="authentic-info">
+          <h3 className="page-section__subtitle">Shopping list</h3>
+          <h4 className="page-section__text-title page-section__text-title--black">The app is password protected.</h4>
+          <ul className="page-section__text-desc page-section__text-desc--black">
             <li>
               <BiUserCircle /> Username: username
             </li>
@@ -22,13 +22,13 @@ function ShoppingList() {
               <RiLockPasswordFill /> Password: password
             </li>
           </ul>
-          <p className="page-section__text-desc project__desc">A shopping list or shopping cart, where you can add items, delete them, and once you are ready with the shopping, you can clear all items from the shopping list.</p>
+          <p className="page-section__text-desc">A shopping list or shopping cart, where you can add items, delete them, and once you are ready with the shopping, you can clear all items from the shopping list.</p>
           <div className="project-preview__img--right project-preview__img--mobile">
             <img className="project__img" src={shoppingList}/>
           </div>
           <div className="project__tech-list">
-            <h4 className="project__tech-list-title">Stack Used:</h4>
-            <ul className="project__tech-list-items">
+            <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
+            <ul className="page-section__text-desc">
               <li>
                 <FaJsSquare /> JavaScript
               </li>

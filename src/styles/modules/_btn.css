@@ -11,6 +11,7 @@
     font-weight: 400;
     color: #fff;
     transition: all ease-in .2s;
+    min-width: 120px
 }
 
 .btn--right {
