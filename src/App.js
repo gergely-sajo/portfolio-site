@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import Nav from './components/Nav';
+import Header from './components/Header';
 import Home from './components/Home';
 import ProjectsSection from './components/ProjectsSection';
 import Skills from './components/Skills';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <Nav sticky={isSticky} />
+      <Header sticky={isSticky} />
       <Home element={element}/>
       <ProjectsSection />
       <Skills />
