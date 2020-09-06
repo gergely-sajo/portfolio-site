@@ -18,6 +18,12 @@ At the bottom of the website a Contact from can be seen, in which an emailing fu
 
 ## Stack
 ### Languages
+* HTML
+* CSS
+* JS
+* React.js
+* Formspree
+
 I did not use any CSS of JS libraries to make the website, only for icons.
 I used Formspree for the contact form to be able to forward the emails to my email address.
 
