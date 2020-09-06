@@ -16,7 +16,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 70%;
+    width: 50%;
     max-width: 400px;
     z-index: 200;
 }
@@ -59,29 +59,19 @@
     flex-direction: column;
     margin-top: 3rem;
     display: flex;
+    padding-top: 1.5rem;
 }
 
 .nav__elements--mobile li {
     color: #0D1E23;
     font-size: 1.3rem;
-    
 }
 
 .nav__elements--mobile a {
-    padding: 3rem 0 0 2rem;
+    padding: 1.5rem 0 1.5rem 2rem;
     position: relative;
+    border-bottom: 1px solid #0D1E23;
 }
-
-.nav__elements--mobile li::before {
-    content: "";
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #0D1E23;
-}
-
 
 .nav-elements li {
     transition: 0.3s;
@@ -102,7 +92,6 @@
     color: #fff;
 }
 
-
 .nav-elements a::after {
     content: "";
     position: absolute;
@@ -121,7 +110,9 @@
     transform: scaleX(1);
 }
 
-.nav__mobile-menu--icon::before, .nav__mobile-menu--icon-sticky::before {
+/* General Mobile Menu Icon CSS */
+
+.nav__mobile-menu--icon::before, .nav__mobile-menu--icon-sticky::before, .nav__mobile-menu--icon--menu-open-x::before, .nav__mobile-menu--icon--menu-open-x--sticky::before {
     content: "";
     position: absolute;
     top: -8px;
@@ -129,11 +120,11 @@
     width: 20px;
     height: 3px;
     background-color: #FFF;
-    transform-origin: 0 100%;
     transition: all .3s ease-out;
+    transform-origin: 0 0;
 }
 
-.nav__mobile-menu--icon, .nav__mobile-menu--icon-sticky, .nav__mobile-menu--icon--menu-open {
+.nav__mobile-menu--icon, .nav__mobile-menu--icon-sticky, .nav__mobile-menu--icon--menu-open-x, .nav__mobile-menu--icon--menu-open-x--sticky {
     position: absolute;
     top: 35px;
     right: 35px;
@@ -143,7 +134,7 @@
     transition: all .3s ease-out;
 }
 
-.nav__mobile-menu--icon::after, .nav__mobile-menu--icon-sticky::after {
+.nav__mobile-menu--icon::after, .nav__mobile-menu--icon-sticky::after, .nav__mobile-menu--icon--menu-open-x::after, .nav__mobile-menu--icon--menu-open-x--sticky::after {
     content: "";
     position: absolute;
     top: 8px;
@@ -151,61 +142,43 @@
     width: 20px;
     height: 3px;
     background-color: #FFF;
-    transform-origin: 50% 50%;
     transition: all .3s ease-out;
+    transform-origin: 0 100%;
 }
 
-.nav__mobile-menu--icon--menu-open {
-    position: absolute;
-    top: 35px;
-    right: 35px;
-    width: 20px;
-    height: 3px;
+/* Mobile Menu Open - Mobile Menu X CSS */
+
+.nav__mobile-menu--icon--menu-open-x::before, .nav__mobile-menu--icon--menu-open-x--sticky::before {
     background-color: #0D1E23;
     z-index: 300;
-    transform: rotate(45deg);
+    transform: rotate(45deg) scaleX(1.25);
 }
 
-.nav__mobile-menu--icon--menu-open::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20px;
-    height: 3px;
-    background-color: #0D1E23;
+.nav__mobile-menu--icon--menu-open-x, .nav__mobile-menu--icon--menu-open-x--sticky {
     z-index: 300;
-    transform: rotate(-90deg);
 }
 
-.nav__mobile-menu--icon--menu-open--sticky {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 20px;
-    height: 3px;
+.nav__mobile-menu--icon--menu-open-x::after, .nav__mobile-menu--icon--menu-open-x--sticky::after  {
     background-color: #0D1E23;
     z-index: 300;
-    transform: rotate(45deg);
-    transition: all .3s ease-out;
+    transform: rotate(-45deg) scaleX(1.25) translateY(1px);
 }
 
-.nav__mobile-menu--icon--menu-open--sticky::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20px;
-    height: 3px;
-    background-color: #0D1E23;
-    z-index: 300;
-    transform: rotate(-90deg);
-}
+/* Mobile Menu Icon - Sticky CSS */
 
 .nav__mobile-menu--icon-sticky {
     top: 25px;
     right: 25px;
 }
+
+/* Mobile Menu Open - Mobile Menu X - Sticky CSS  */
+
+.nav__mobile-menu--icon--menu-open-x--sticky {
+    top: 25px;
+    right: 25px;
+}
+
+/* --- RESPONSIVE DESIGN RULES --- */
 
 /* Min-width: 750px Styles */
 

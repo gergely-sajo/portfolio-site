@@ -33,7 +33,7 @@ const Header = ({ sticky }) => {
         
         <div className="nav__mobile--menu">
           <span 
-            className={mobileMenu && sticky ? "nav__mobile-menu--icon--menu-open--sticky" : (mobileMenu && !sticky ? "nav__mobile-menu--icon--menu-open" : (sticky && !mobileMenu ? "nav__mobile-menu--icon-sticky" : "nav__mobile-menu--icon"))}
+            className={mobileMenu && sticky ? "nav__mobile-menu--icon--menu-open-x--sticky" : (mobileMenu && !sticky ? "nav__mobile-menu--icon--menu-open-x" : (sticky && !mobileMenu ? "nav__mobile-menu--icon-sticky" : "nav__mobile-menu--icon"))}
             onClick={() => setmobileMenuOpen(!mobileMenuOpen)}
             />
           { mobileMenuBackgroundShadow }
