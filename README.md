@@ -20,7 +20,7 @@ At the bottom of the website a Contact from can be seen, in which an emailing fu
 ### Languages
 * HTML
 * CSS
-* JS
+* Javascript
 * React.js
 * Formspree
 
