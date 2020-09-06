@@ -16,7 +16,7 @@ The CSS rules were created by bearing in mind the mobile first responsive design
 ### Contact Form
 At the bottom of the website a Contact from can be seen, in which an emailing function is implemented with Formspree.
 
-## Stack
+## Stack used
 ### Languages
 * HTML
 * CSS
