@@ -1,6 +1,6 @@
 /* Styles without media */
 
-.logo {
+.logo, .logo-sticky {
     transition: 0.3s;
     font-size: 6.25vw;
     position: relative;
@@ -8,8 +8,6 @@
 
 .logo-sticky {
     font-size: 4.5vw;
-    transition: 0.3s;
-    position: relative;
 }
 
 .logo a, .logo-sticky a {
