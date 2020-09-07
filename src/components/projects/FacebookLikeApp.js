@@ -6,6 +6,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiWebpack } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
+import { FaHtml5 } from "react-icons/fa";
 
 function FacebookLikeApp() {
   return (
@@ -26,7 +27,7 @@ function FacebookLikeApp() {
                 <SiNodeDotJs /> Node.Js
               </li>
               <li>
-                <SiMongodb /> Mongo.db
+                <SiMongodb /> MongoDB
               </li>
               <li>
                 <SiWebpack /> Webpack
@@ -37,6 +38,12 @@ function FacebookLikeApp() {
               <li>
                 <AiOutlineStar /> Express.js
               </li>
+              <li>
+                <AiOutlineStar /> EJS
+              </li>
+              <li>
+                <FaHtml5 /> HTML
+            </li>
             </ul>
             <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
             <a href="https://github.com/gergely-sajo/facebook-like-app" target="_blank"><button className="btn btn-dark">View Code</button></a>
