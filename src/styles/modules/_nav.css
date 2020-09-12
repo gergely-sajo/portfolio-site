@@ -154,10 +154,6 @@
     transform: rotate(45deg) scaleX(1.25);
 }
 
-.nav__mobile-menu--icon--menu-open-x, .nav__mobile-menu--icon--menu-open-x--sticky {
-    z-index: 300;
-}
-
 .nav__mobile-menu--icon--menu-open-x::after, .nav__mobile-menu--icon--menu-open-x--sticky::after  {
     background-color: #0D1E23;
     z-index: 300;
