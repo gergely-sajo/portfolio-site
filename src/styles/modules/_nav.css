@@ -183,7 +183,7 @@
         display: block;
     }
 
-    li:not(:last-child) {
+    .nav-elements li:not(:last-child) {
         margin-right: 40px;
     }
 
@@ -211,7 +211,7 @@
         font-size: 1.1rem;
     }
 
-    li:not(:last-child) {
+    .nav-elements li:not(:last-child) {
         margin-right: 60px;
     }
 }
