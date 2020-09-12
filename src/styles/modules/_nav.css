@@ -199,9 +199,6 @@
 /* Min-width: 930px Styles */
 
 @media screen and (min-width: 900px) {
-    .nav {
-        padding-top: 50px;
-    }
 
     .nav-elements li {
         font-size: 1.2rem;
@@ -219,9 +216,6 @@
 /* Min-width: 1200px Styles */
 
 @media screen and (min-width: 1200px) {
-    .nav {
-        padding-top: 50px;
-    }
 
     .nav-elements li {
         font-size: 1.3rem;
@@ -232,7 +226,7 @@
 
 @media screen and (min-width: 1440px) {
     .nav {
-        padding-top: 80px;
+        padding: 80px 0 20px 0;
     }
 
     .nav-elements li {
