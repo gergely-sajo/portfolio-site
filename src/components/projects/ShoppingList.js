@@ -24,7 +24,7 @@ function ShoppingList() {
           </ul>
           <p className="page-section__text-desc">A shopping list or shopping cart, where you can add items, delete them, and once you are ready with the shopping, you can clear all items from the shopping list.</p>
           <div className="project-preview__img--right project-preview__img--mobile">
-            <img className="project__img" src={shoppingList}/>
+            <img className="project__img" src={shoppingList} alt="Shopping list"/>
           </div>
           <div className="project__tech-list">
             <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
@@ -50,7 +50,7 @@ function ShoppingList() {
           </div>
       </div>
       <div className="project-preview__img--right project-preview__img--desktop">
-        <img className="project__img" src={shoppingList}/>
+        <img className="project__img" src={shoppingList} alt="Shopping list"/>
       </div>
     </div>
   )

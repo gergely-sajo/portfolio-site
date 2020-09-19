@@ -15,7 +15,7 @@ function FacebookLikeApp() {
           <h3 className="page-section__subtitle">Facebook-like App</h3>
           <p className="page-section__text-desc">New users must register first, or if they have a user account, they can login. Within the app it is possible to post, edit and delete content. Users can follow each other, as well.</p>
           <div className="project-preview__img--right project-preview__img--mobile">
-            <img className="project__img" src={facebookLikeApp}/>
+            <img className="project__img" src={facebookLikeApp} alt="Facebook like app"/>
           </div>
           <div className="project__tech-list">
             <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
@@ -50,7 +50,7 @@ function FacebookLikeApp() {
           </div>
       </div>
       <div className="project-preview__img--right project-preview__img--desktop">
-        <img className="project__img" src={facebookLikeApp}/>
+        <img className="project__img" src={facebookLikeApp} alt="Facebook like app"/>
       </div>
     </div>
   )

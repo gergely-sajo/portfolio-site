@@ -7,13 +7,13 @@ function CounterApp() {
   return (
     <div className="project-preview">
       <div className="project-preview__img--left project-preview__img--desktop">
-        <img className="project__img" src={counterApp}/>
+        <img className="project__img" src={counterApp} alt="Counter app"/>
       </div>
       <div className="project-preview__content--right">
           <h3 className="page-section__subtitle">Counter App</h3>
           <p className="page-section__text-desc">A simple counter app, where users can add and remove counters, and count on the counters by incrementing their values. A total counter is on the top which counts the counters which are not zero. Many "counters" in this description.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
-            <img className="project__img" src={counterApp}/>
+            <img className="project__img" src={counterApp} alt="Counter app"/>
           </div>  
           <div className="project__tech-list">
           <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>

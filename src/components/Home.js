@@ -11,7 +11,7 @@ const Home = ({ element }) => {
                 <a href="#my-projects"><button className="btn btn--large">My Projects</button></a>
             </div>
             <div id="Home-Banner-Photo" className="home-banner__photo">
-                <img src={me} alt="Gary Sajo"/>
+                <img src={me} alt="Gary Sajo" alt="That´s me"/>
             </div>
         </div>
     </div>
