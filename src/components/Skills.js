@@ -22,7 +22,7 @@ function Skills() {
       <div className="wrapper">
         <h2 className="page-section__title page-section__title--light">Skills</h2>
         <div className="page-section__flex">
-          <div className="row__6">
+          <div className="row__3">
             <p className="page-section__text-title page-section__text-title--white">Languages</p>
             <ul className="page-section__text-desc">
               <li><FaHtml5 /> HTML5</li>
@@ -30,7 +30,7 @@ function Skills() {
               <li><FaJsSquare /> JavaScript</li>
             </ul>
           </div>
-          <div className="row__6">
+          <div className="row__3">
               <p className="page-section__text-title page-section__text-title--white">Frameworks & Libs</p>
               <ul className="page-section__text-desc">
                 <li><FaReact /> React</li>
@@ -41,14 +41,14 @@ function Skills() {
                 <li><AiOutlineStar /> Lodash</li>
               </ul>
           </div>
-          <div className="row__6">
+          <div className="row__3">
             <p className="page-section__text-title page-section__text-title--white">Tools</p>
             <ul className="page-section__text-desc">
               <li><FaNpm /> NPM</li>
               <li><SiWebpack /> Webpack</li>
             </ul>
           </div>
-          <div className="row__6">
+          <div className="row__3">
             <p className="page-section__text-title page-section__text-title--white">Additional Stuff</p>
             <ul className="page-section__text-desc">
               <li><FaGithub /> Git & Github</li>

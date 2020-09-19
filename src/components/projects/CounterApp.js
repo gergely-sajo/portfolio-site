@@ -25,7 +25,7 @@ function CounterApp() {
               <FaReact /> React.js
             </li>
           </ul>
-          <a href="https://gergely-sajo-counter-app.netlify.app/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://gergely-sajo-counter-app.netlify.app/" target="_blank"><button className="btn btn-dark m-r--s">View Site</button></a>
           <a href="https://github.com/gergely-sajo/counter" target="_blank"><button className="btn btn-dark">View Code</button></a>
         </div>      
       </div>   

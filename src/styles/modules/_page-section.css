@@ -76,15 +76,6 @@
     margin-right: auto;
 }
 
-.page-section--centered {
-    margin: auto;
-    width: 40%;
-}
-
-.page-section__mobile-text-centered {
-    text-align: center;
-}
-
 /* Min-width: 750px Styles */
 
 @media screen and (min-width: 750px) {

@@ -1,4 +1,4 @@
-@import './base/_base.css';
+@import './base/_global.css';
 @import './modules/_wrapper.css';
 @import './modules/_page-section.css';
 @import './modules/_home-banner.css';
@@ -9,4 +9,3 @@
 @import './modules/_contact.css';
 @import './modules/_footer.css';
 @import './modules/_row.css';
-@import './modules/_generic.css';

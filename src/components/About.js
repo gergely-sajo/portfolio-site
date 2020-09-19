@@ -7,7 +7,7 @@ function About() {
     <div className="wrapper">
       <h2 className="page-section__title page-section__title--dark">About Me</h2>
       <div className="page-section__narrow-centered">
-        <p className="page-section__text-desc pb-2">
+        <p className="page-section__text-desc p-b--2">
           My full name is Gergely Sajo, but just call me Gary. I am a self-taught developer located in Vienna, Austria. Currently, I am pursuing the opportunity to begin my career in web development.
           <br/>
           <br/>

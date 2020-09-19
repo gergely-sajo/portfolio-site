@@ -37,7 +37,7 @@ function TravelSite() {
               <SiWebpack /> Webpack
             </li>
           </ul>
-          <a href="https://gergely-sajo-travel-site.netlify.app/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+          <a href="https://gergely-sajo-travel-site.netlify.app/" target="_blank"><button className="btn btn-dark m-r--s">View Site</button></a>
           <a href="https://github.com/gergely-sajo/travel-site" target="_blank"><button className="btn btn-dark">View Code</button></a>       
         </div>
       </div>   

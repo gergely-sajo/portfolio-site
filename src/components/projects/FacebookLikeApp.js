@@ -45,7 +45,7 @@ function FacebookLikeApp() {
                 <FaHtml5 /> HTML
             </li>
             </ul>
-            <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+            <a href="https://gergely-sajo-facebook-like-app.herokuapp.com/" target="_blank"><button className="btn btn-dark m-r--s">View Site</button></a>
             <a href="https://github.com/gergely-sajo/facebook-like-app" target="_blank"><button className="btn btn-dark">View Code</button></a>
           </div>
       </div>

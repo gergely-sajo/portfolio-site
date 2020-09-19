@@ -26,7 +26,7 @@ function RandomColorGenerator() {
                 <FaJsSquare /> JavaScript
               </li>
             </ul>
-            <a href="https://gergely-sajo-random-color-generator.netlify.app/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+            <a href="https://gergely-sajo-random-color-generator.netlify.app/" target="_blank"><button className="btn btn-dark m-r--s">View Site</button></a>
             <a href="https://github.com/gergely-sajo/random-color-generator" target="_blank"><button className="btn btn-dark">View Code</button></a>
           </div>
       </div>

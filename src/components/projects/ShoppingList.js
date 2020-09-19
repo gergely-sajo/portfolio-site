@@ -16,10 +16,10 @@ function ShoppingList() {
           <h4 className="page-section__text-title page-section__text-title--black">The app is password protected.</h4>
           <ul className="page-section__text-desc page-section__text-desc--black">
             <li>
-              <BiUserCircle /> Username: username
+              <BiUserCircle /> Username: "username"
             </li>
             <li>
-              <RiLockPasswordFill /> Password: password
+              <RiLockPasswordFill /> Password: "password"
             </li>
           </ul>
           <p className="page-section__text-desc">A shopping list or shopping cart, where you can add items, delete them, and once you are ready with the shopping, you can clear all items from the shopping list.</p>
@@ -45,7 +45,7 @@ function ShoppingList() {
                 <FaHtml5 /> HTML
               </li>
             </ul>
-            <a href="https://gergely-sajo-shopping-list.herokuapp.com/" target="_blank"><button className="btn btn-dark sm-r-m">View Site</button></a>
+            <a href="https://gergely-sajo-shopping-list.herokuapp.com/" target="_blank"><button className="btn btn-dark m-r--s">View Site</button></a>
             <a href="https://github.com/gergely-sajo/shopping-list" target="_blank"><button className="btn btn-dark">View Code</button></a>
           </div>
       </div>

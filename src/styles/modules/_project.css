@@ -9,7 +9,7 @@
 }
 
 .project-preview:last-of-type {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 
 .project-preview__content--left > *, .project-preview__content--right > * {
@@ -131,4 +131,13 @@
     .project-preview__content-right {
         margin-left: 8rem;
     }
+}
+
+/* Min-width: 1400px Styles */
+
+@media screen and (min-width: 1400px) {
+    .project-preview:last-of-type {
+        margin-bottom: 3rem;
+    }
+   
 }
