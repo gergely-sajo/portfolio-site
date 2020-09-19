@@ -1,5 +1,5 @@
 import React from 'react';
-import slideshow from '../../images/slideshow.webp';
+import slideshow from '../../images/slideshow.png';
 import { FaJsSquare } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { FaHtml5 } from "react-icons/fa";

@@ -31,11 +31,16 @@ const Header = ({ sticky }) => {
             <a href="#">Gergely Sajo</a>
         </div>
         
-        <div className="nav__mobile--menu">
-          <span 
-            className={mobileMenu && sticky ? "nav__mobile-menu--icon--menu-open-x--sticky" : (mobileMenu && !sticky ? "nav__mobile-menu--icon--menu-open-x" : (sticky && !mobileMenu ? "nav__mobile-menu--icon-sticky" : "nav__mobile-menu--icon"))}
-            onClick={() => setmobileMenuOpen(!mobileMenuOpen)}
-            />
+        <div id="nav-mobile-menu">
+            <span 
+              className={mobileMenu && sticky 
+                ? "nav__mobile-menu--icon--menu-open-x--sticky" 
+                : (mobileMenu && !sticky 
+                  ? "nav__mobile-menu--icon--menu-open-x" 
+                  : (sticky && !mobileMenu ? "nav__mobile-menu--icon-sticky" 
+                  : "nav__mobile-menu--icon"))}
+              onClick={() => setmobileMenuOpen(!mobileMenuOpen)}
+              />
           { mobileMenuBackgroundShadow }
           { mobileMenu }
         </div>

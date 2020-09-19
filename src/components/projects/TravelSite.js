@@ -1,5 +1,5 @@
 import React from 'react';
-import travelSite from '../../images/travel-site.webp';
+import travelSite from '../../images/travel-site.png';
 import { FaJsSquare } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { FaHtml5 } from "react-icons/fa";

@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolio from '../../images/portfolio-site.webp';
+import portfolio from '../../images/portfolio-site.png';
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";

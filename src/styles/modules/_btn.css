@@ -1,8 +1,8 @@
 /* Styles without media */
 
 .btn {
-    font-size: 1rem;
-    padding: 20px 20px;
+    font-size: 0.9rem;
+    padding: 15px;
     display: inline-block;
     cursor: pointer;
     border-radius: 1000px;
@@ -11,7 +11,7 @@
     font-weight: 400;
     color: #fff;
     transition: all ease-in .2s;
-    min-width: 120px
+    min-width: 100px
 }
 
 .btn--right {
