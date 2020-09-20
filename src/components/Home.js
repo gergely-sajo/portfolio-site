@@ -3,7 +3,7 @@ import me from '../images/me.jpeg';
 
 const Home = ({ element }) => {
 
-  let winHeight = window.document.documentElement.clientHeight
+  let winHeight = window.innerHeight
 
   return (
     <div id="home" className="page-section page-section--dark" style={{height: winHeight}}>
