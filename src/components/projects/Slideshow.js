@@ -9,13 +9,13 @@ function Slideshow() {
   return (
     <div className="project-preview">
       <div className="project-preview__img--left project-preview__img--desktop">
-        <img className="project__img" src={slideshow} alt="Slideshow"/>
+        <img className="project__img" src={slideshow} loading="lazy" alt="Slideshow"/>
       </div>
       <div className="project-preview__content--right">
           <h3 className="page-section__subtitle">Slideshow</h3>
           <p className="page-section__text-desc">My first small project was a simple slideshow where you can go forwards, backwards and you can start and stop the slideshow. Once the images are done, it automatically start over from the beginning.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
-            <img className="project__img" src={slideshow} alt="Slideshow"/>
+            <img className="project__img" src={slideshow} loading="lazy" alt="Slideshow"/>
           </div>
           <div className="project__tech-list">
           <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>

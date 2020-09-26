@@ -11,7 +11,7 @@ function RandomColorGenerator() {
           <h3 className="page-section__subtitle">Random Color Generator</h3>
           <p className="page-section__text-desc">By clicking on the "CLICK ME!" button we can generate a random color for the background, and we also get the hex color code for the color generated.</p>
           <div className="project-preview__img--right project-preview__img--mobile">
-            <img className="project__img" src={randomColorGenerator} alt="Random color generator"/>
+            <img className="project__img" src={randomColorGenerator} loading="lazy" alt="Random color generator"/>
           </div>
           <div className="project__tech-list">
             <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
@@ -31,7 +31,7 @@ function RandomColorGenerator() {
           </div>
       </div>
       <div className="project-preview__img--right project-preview__img--desktop">
-        <img className="project__img" src={randomColorGenerator} alt="Random color generator"/>
+        <img className="project__img" src={randomColorGenerator} loading="lazy" alt="Random color generator"/>
       </div>
     </div>
   )

@@ -10,13 +10,13 @@ function TravelSite() {
   return (
     <div className="project-preview">
       <div className="project-preview__img--left project-preview__img--desktop">
-        <img className="project__img" src={travelSite} alt="Travel site"/>
+        <img className="project__img" src={travelSite} loading="lazy" alt="Travel site"/>
       </div>
       <div className="project-preview__content--right">
           <h3 className="page-section__subtitle">Travel site</h3>
           <p className="page-section__text-desc">The travel site is meant to showcase the BEM philosophy and mobile-first design.</p>
           <div className="project-preview__img--left project-preview__img--mobile">
-            <img className="project__img" src={travelSite} alt="Travel site"/>
+            <img className="project__img" src={travelSite} loading="lazy" alt="Travel site"/>
           </div> 
           <div className="project__tech-list">
           <h4 className="page-section__text-title page-section__text-title--black">Stack Used:</h4>
