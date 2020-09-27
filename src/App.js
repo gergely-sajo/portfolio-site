@@ -16,7 +16,7 @@ function App() {
   const { isSticky, element } = useSticky()
 
   return (
-    <div>
+    <>
       <Header sticky={isSticky} />
       <Home element={element}/>
       <ProjectsSection />
@@ -24,7 +24,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

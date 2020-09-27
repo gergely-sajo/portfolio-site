@@ -7,7 +7,7 @@ function Footer() {
         <p className="footer--text">Handcrafted by Gary. © 2020 Gergely Sajo. All rights reserved.</p>
       </div>
     </div>
-      )
-  }
+  )
+}
   
-  export default Footer;
+export default Footer;

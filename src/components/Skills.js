@@ -1,19 +1,11 @@
 import React from 'react';
-import { FaJsSquare } from "react-icons/fa";
+
+import Skillset from './skillComponents/Skillset';
+
+import { FaJsSquare , FaHtml5 , FaReact , FaBootstrap , FaNpm , FaGithub , FaWordpress} from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
-import { FaHtml5 } from "react-icons/fa";
-import { SiJquery } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiNodeDotJs } from "react-icons/si";
+import { SiJquery , SiNodeDotJs, SiWebpack, SiMongodb, SiNetlify , SiHeroku } from "react-icons/si";
 import { AiOutlineStar } from "react-icons/ai";
-import { FaBootstrap } from "react-icons/fa";
-import { SiWebpack } from "react-icons/si";
-import { FaNpm } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
-import { FaWordpress } from "react-icons/fa";
-import { SiNetlify } from "react-icons/si";
-import { SiHeroku } from "react-icons/si";
 import { FiCode } from "react-icons/fi";
 
 function Skills() {
@@ -23,41 +15,49 @@ function Skills() {
         <h2 className="page-section__title page-section__title--light">Skills</h2>
         <div className="page-section__flex">
           <div className="row__3">
-            <p className="page-section__text-title page-section__text-title--white">Languages</p>
-            <ul className="page-section__text-desc">
-              <li><FaHtml5 /> HTML5</li>
-              <li><DiCss3 /> CSS3</li>
-              <li><FaJsSquare /> JavaScript</li>
-            </ul>
+            <Skillset
+              skillsetTitle={"Languages"}
+              stackList={[
+                {stackIcon: <FaHtml5/>, stackName: "HTML5"},
+                {stackIcon: <DiCss3/>, stackName: "CSS3"},
+                {stackIcon: <FaJsSquare/>, stackName: "Javascript"}
+              ]}
+            />
           </div>
           <div className="row__3">
-              <p className="page-section__text-title page-section__text-title--white">Frameworks & Libs</p>
-              <ul className="page-section__text-desc">
-                <li><FaReact /> React</li>
-                <li><SiNodeDotJs /> Node.js</li>
-                <li><AiOutlineStar /> Express.js</li>
-                <li><SiJquery /> jQuery</li>
-                <li><FaBootstrap /> Bootstrap</li>
-                <li><AiOutlineStar /> Lodash</li>
-              </ul>
+            <Skillset
+              skillsetTitle={"Frameworks & Libs"}
+              stackList={[
+                {stackIcon: <FaReact/>, stackName: "React"},
+                {stackIcon: <SiNodeDotJs/>, stackName: "Node.js"},
+                {stackIcon: <AiOutlineStar/>, stackName: "Express.js"},
+                {stackIcon: <SiJquery/>, stackName: "jQuery"},
+                {stackIcon: <FaBootstrap/>, stackName: "Bootstrap"},
+                {stackIcon: <AiOutlineStar/>, stackName: "Loadash"}
+              ]}
+            />
           </div>
           <div className="row__3">
-            <p className="page-section__text-title page-section__text-title--white">Tools</p>
-            <ul className="page-section__text-desc">
-              <li><FaNpm /> NPM</li>
-              <li><SiWebpack /> Webpack</li>
-            </ul>
+            <Skillset
+              skillsetTitle={"Tools"}
+              stackList={[
+                {stackIcon: <FaNpm/>, stackName: "NPM"},
+                {stackIcon: <SiWebpack/>, stackName: "Webpack"}
+              ]}
+            />
           </div>
           <div className="row__3">
-            <p className="page-section__text-title page-section__text-title--white">Additional Stuff</p>
-            <ul className="page-section__text-desc">
-              <li><FaGithub /> Git & Github</li>
-              <li><SiMongodb /> Mongodb</li>
-              <li><FaWordpress /> Wordpress</li>
-              <li><FiCode /> ejs</li>
-              <li><SiNetlify /> Netlify</li>
-              <li><SiHeroku /> Heroku</li>
-            </ul>
+            <Skillset
+              skillsetTitle={"Tools"}
+              stackList={[
+                {stackIcon: <FaGithub/>, stackName: "Git & Github"},
+                {stackIcon: <SiMongodb/>, stackName: "Mongodb"},
+                {stackIcon: <FaWordpress/>, stackName: "Wordpress"},
+                {stackIcon: <FiCode/>, stackName: "ejs"},
+                {stackIcon: <SiNetlify/>, stackName: "Netlify"},
+                {stackIcon: <SiHeroku/>, stackName: "Heroku"}
+              ]}
+            />
           </div>
         </div>
       </div>

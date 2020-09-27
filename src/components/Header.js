@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import CV from '../images/resume.pdf';
+import classNames from 'classnames';
 
 const Header = ({ sticky }) => {
-  const [mobileMenuOpen, setmobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setmobileMenuOpen] = useState(false)
 
   let mobileMenu
   let mobileMenuBackgroundShadow
 
-  if (mobileMenuOpen) {
+  if (isMobileMenuOpen) {
     mobileMenu =  
       <div className="nav__mobile">
-        <ul className="nav__elements--mobile" onClick={() => setmobileMenuOpen(!mobileMenuOpen)}>
+        <ul className="nav__elements--mobile" onClick={() => setmobileMenuOpen(!isMobileMenuOpen)}>
           <a href="#" id="home" ><li>Home</li></a>
           <a href="#my-projects" id="my-projects-link" ><li>My Projects</li></a>
           <a href="#skills" id="skills-link"><li>Skills</li></a>
@@ -20,8 +21,15 @@ const Header = ({ sticky }) => {
         </ul>
       </div>
 
-      mobileMenuBackgroundShadow = <div className="nav__mobile__background-shadow" onClick={() => setmobileMenuOpen(!mobileMenuOpen)}></div>
+      mobileMenuBackgroundShadow = <div className="nav__mobile__background-shadow" onClick={() => setmobileMenuOpen(!isMobileMenuOpen)}></div>
   }
+
+  let mobileMenuClassname = classNames({
+    "nav__mobile-menu--icon--menu-open-x--sticky" : mobileMenu && sticky,
+    "nav__mobile-menu--icon--menu-open-x" : mobileMenu && !sticky,
+    "nav__mobile-menu--icon-sticky" : !mobileMenu && sticky,
+    "nav__mobile-menu--icon" : !mobileMenu && !sticky
+  })
 
   return (
     <div id="nav" className={sticky ? "nav-sticky" : "nav"}>
@@ -32,14 +40,9 @@ const Header = ({ sticky }) => {
         </div>
         
         <div id="nav-mobile-menu">
-            <span 
-              className={mobileMenu && sticky 
-                ? "nav__mobile-menu--icon--menu-open-x--sticky" 
-                : (mobileMenu && !sticky 
-                  ? "nav__mobile-menu--icon--menu-open-x" 
-                  : (sticky && !mobileMenu ? "nav__mobile-menu--icon-sticky" 
-                  : "nav__mobile-menu--icon"))}
-              onClick={() => setmobileMenuOpen(!mobileMenuOpen)}
+            <span
+              className={mobileMenuClassname}
+              onClick={() => setmobileMenuOpen(!isMobileMenuOpen)}
               />
           { mobileMenuBackgroundShadow }
           { mobileMenu }

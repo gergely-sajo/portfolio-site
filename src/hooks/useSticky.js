@@ -6,8 +6,7 @@ function useSticky() {
   const element = useRef(null)
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {setSticky(true)}
-    else {setSticky(false)}
+    setSticky(window.scrollY > 0);
   }
 
   useEffect(() => {

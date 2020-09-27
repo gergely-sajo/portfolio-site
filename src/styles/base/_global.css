@@ -63,3 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 .p-b--2 {
     padding-bottom: 2rem;
 }
+
+input, textarea {
+    display: block;
+    margin: 0 auto;
+}
