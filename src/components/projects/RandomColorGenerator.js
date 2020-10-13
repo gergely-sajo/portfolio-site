@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import ProjectPreviewImgRight from './projectComponents/ProjectPreviewImgRight';
+import ProjectPreviewImgRight from "./projectComponents/ProjectPreviewImgRight";
 
-import randomColorGenerator from '../../images/random-color-generator.png';
-import { FaJsSquare , FaHtml5 } from 'react-icons/fa';
-import { DiCss3 } from 'react-icons/di';
+import randomColorGenerator from "../../images/random-color-generator.png";
+import { FaJsSquare, FaHtml5 } from "react-icons/fa";
+import { DiCss3 } from "react-icons/di";
 
 function RandomColorGenerator() {
   return (
@@ -16,12 +16,12 @@ function RandomColorGenerator() {
       viewSite="https://gergely-sajo-random-color-generator.netlify.app/"
       viewCode="https://github.com/gergely-sajo/random-color-generator"
       stackList={[
-        {stackIcon: <FaHtml5/>, stackName: "HTML"},
-        {stackIcon: <DiCss3/>, stackName: "CSS"},
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"}
+        { stackIcon: <FaHtml5 />, stackName: "HTML" },
+        { stackIcon: <DiCss3 />, stackName: "CSS" },
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" }
       ]}
     />
-  )
+  );
 }
 
 export default RandomColorGenerator;

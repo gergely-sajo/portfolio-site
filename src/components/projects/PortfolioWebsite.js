@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import ProjectPreviewImgLeft from './projectComponents/ProjectPreviewImgLeft';
+import ProjectPreviewImgLeft from "./projectComponents/ProjectPreviewImgLeft";
 
-import portfolio from '../../images/portfolio-site.png';
-import { FaJsSquare , FaReact , FaHtml5 } from 'react-icons/fa';
-import { DiCss3 } from 'react-icons/di';
-
+import portfolio from "../../images/portfolio-site.png";
+import { FaJsSquare, FaReact, FaHtml5 } from "react-icons/fa";
+import { DiCss3 } from "react-icons/di";
 
 function PortfolioWebsite() {
   return (
@@ -17,13 +16,13 @@ function PortfolioWebsite() {
       viewSite="https://gergelysajo.netlify.app/"
       viewCode="https://github.com/gergely-sajo/portfolio-site"
       stackList={[
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"},
-        {stackIcon: <FaReact/>, stackName: "React"},
-        {stackIcon: <DiCss3/>, stackName: "CSS"},
-        {stackIcon: <FaHtml5/>, stackName: "HTML"}
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" },
+        { stackIcon: <FaReact />, stackName: "React" },
+        { stackIcon: <DiCss3 />, stackName: "CSS" },
+        { stackIcon: <FaHtml5 />, stackName: "HTML" }
       ]}
     />
-  )
+  );
 }
-  
+
 export default PortfolioWebsite;

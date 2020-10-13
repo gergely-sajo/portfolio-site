@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import ProjectPreviewImgRight from './projectComponents/ProjectPreviewImgRight';
+import ProjectPreviewImgRight from "./projectComponents/ProjectPreviewImgRight";
 
-import shoppingList from '../../images/shopping-list.png';
-import { FaJsSquare , FaHtml5 } from "react-icons/fa";
+import shoppingList from "../../images/shopping-list.png";
+import { FaJsSquare, FaHtml5 } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import { SiMongodb, SiWebpack } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-
 
 function ShoppingList() {
   return (
@@ -19,15 +18,15 @@ function ShoppingList() {
       viewSite="https://gergely-sajo-shopping-list.herokuapp.com/"
       viewCode="https://github.com/gergely-sajo/shopping-list"
       stackList={[
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"},
-        {stackIcon: <AiOutlineStar/>, stackName: "Express.js"},
-        {stackIcon: <SiMongodb/>, stackName: "MongoDB"},
-        {stackIcon: <SiWebpack/>, stackName: "Webpack"},
-        {stackIcon: <DiCss3/>, stackName: "CSS"},
-        {stackIcon: <FaHtml5/>, stackName: "HTML"}
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" },
+        { stackIcon: <AiOutlineStar />, stackName: "Express.js" },
+        { stackIcon: <SiMongodb />, stackName: "MongoDB" },
+        { stackIcon: <SiWebpack />, stackName: "Webpack" },
+        { stackIcon: <DiCss3 />, stackName: "CSS" },
+        { stackIcon: <FaHtml5 />, stackName: "HTML" }
       ]}
     />
-  )
+  );
 }
 
 export default ShoppingList;

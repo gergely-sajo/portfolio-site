@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
+import ProjectPreviewImgLeft from "./projectComponents/ProjectPreviewImgLeft";
 
-import ProjectPreviewImgLeft from './projectComponents/ProjectPreviewImgLeft';
-
-import counterApp from '../../images/counter-app.png';
-import { FaJsSquare, FaReact } from 'react-icons/fa';
+import counterApp from "../../images/counter-app.png";
+import { FaJsSquare, FaReact } from "react-icons/fa";
 
 function CounterApp() {
   return (
@@ -15,11 +14,11 @@ function CounterApp() {
       viewSite="https://gergely-sajo-counter-app.netlify.app/"
       viewCode="https://github.com/gergely-sajo/counter"
       stackList={[
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"},
-        {stackIcon: <FaReact/>, stackName: "React"}
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" },
+        { stackIcon: <FaReact />, stackName: "React" }
       ]}
     />
-  )
+  );
 }
-  
+
 export default CounterApp;

@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import ProjectPreviewImgRight from './projectComponents/ProjectPreviewImgRight';
+import ProjectPreviewImgRight from "./projectComponents/ProjectPreviewImgRight";
 
-import facebookLikeApp from '../../images/facebook-like-app.png';
-import { FaJsSquare , FaBootstrap , FaHtml5 } from "react-icons/fa";
-import { SiNodeDotJs , SiMongodb , SiWebpack } from "react-icons/si";
+import facebookLikeApp from "../../images/facebook-like-app.png";
+import { FaJsSquare, FaBootstrap } from "react-icons/fa";
+import { SiNodeDotJs, SiMongodb, SiWebpack } from "react-icons/si";
 import { AiOutlineStar } from "react-icons/ai";
-
 
 function FacebookLikeApp() {
   return (
@@ -18,17 +17,16 @@ function FacebookLikeApp() {
       viewSite="https://gergely-sajo-facebook-like-app.herokuapp.com/"
       viewCode="https://github.com/gergely-sajo/facebook-like-app"
       stackList={[
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"},
-        {stackIcon: <SiNodeDotJs/>, stackName: "Node.js"},
-        {stackIcon: <SiMongodb/>, stackName: "MongoDB"},
-        {stackIcon: <SiWebpack/>, stackName: "Webpack"},
-        {stackIcon: <FaBootstrap/>, stackName: "Bootstrap"},
-        {stackIcon: <AiOutlineStar/>, stackName: "Express.js"},
-        {stackIcon: <AiOutlineStar/>, stackName: "EJS"},
-        {stackIcon: <FaHtml5/>, stackName: "HTML"}
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" },
+        { stackIcon: <SiNodeDotJs />, stackName: "Node.js" },
+        { stackIcon: <SiMongodb />, stackName: "MongoDB" },
+        { stackIcon: <SiWebpack />, stackName: "Webpack" },
+        { stackIcon: <FaBootstrap />, stackName: "Bootstrap" },
+        { stackIcon: <AiOutlineStar />, stackName: "Express.js" },
+        { stackIcon: <AiOutlineStar />, stackName: "EJS" }
       ]}
     />
-  )
+  );
 }
 
 export default FacebookLikeApp;

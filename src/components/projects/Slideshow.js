@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
+import ProjectPreviewImgRight from "./projectComponents/ProjectPreviewImgRight";
 
-import ProjectPreviewImgLeft from './projectComponents/ProjectPreviewImgLeft'
-
-import slideshow from '../../images/slideshow.png';
-import { FaJsSquare , FaHtml5 } from "react-icons/fa";
+import slideshow from "../../images/slideshow.png";
+import { FaJsSquare, FaHtml5 } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { SiJquery } from "react-icons/si";
 
 function Slideshow() {
   return (
-    <ProjectPreviewImgLeft
+    <ProjectPreviewImgRight
       imgSrc={slideshow}
       imgAlt="Slideshow"
       projectName="Slideshow"
@@ -17,13 +16,13 @@ function Slideshow() {
       viewSite="https://gergely-sajo-slideshow.netlify.app/"
       viewCode="https://github.com/gergely-sajo/slideshow-jquery"
       stackList={[
-        {stackIcon: <FaHtml5/>, stackName: "HTML"},
-        {stackIcon: <DiCss3/>, stackName: "CSS"},
-        {stackIcon: <FaJsSquare/>, stackName: "Javascript"},
-        {stackIcon: <SiJquery/>, stackName: "jQuery"}
+        { stackIcon: <FaHtml5 />, stackName: "HTML" },
+        { stackIcon: <DiCss3 />, stackName: "CSS" },
+        { stackIcon: <FaJsSquare />, stackName: "Javascript" },
+        { stackIcon: <SiJquery />, stackName: "jQuery" }
       ]}
     />
-  )
+  );
 }
-  
+
 export default Slideshow;
